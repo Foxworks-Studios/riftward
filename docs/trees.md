@@ -78,7 +78,11 @@ Grouped by what they're for. ✓ marks what exists as data.
 | Tree | Attribute | Skills |
 | --- | --- | --- |
 | **Trade** ✓ | Charisma | **Haggling** ✓ (better prices), **Appraisal** ✓ (know an item's worth, and later its quality) |
-| **Crafting** | Logic (Strength for Smithing) | **Smithing**, **Leatherwork**, **Carpentry**, **Scribing** (copy scrolls), each a tree of its own later |
+| **Harvesting** (planned) | Intuition (Strength for the heavy work) | Gathering raw materials and processing them into what the crafts use: **Skinning** and **Butchering** (moving here from Survival), **Tanning** (pelts and hides into leather, at a tanning rack); later **Mining**, **Smelting** (ore into ingots, at a forge), **Woodcutting** (timber and staves), perhaps **Drying** herbs. See [the crafting trees](crafting.md#the-crafting-trees) |
+| **Alchemy** (planned) | Logic | **Brewing** (moving here from Nature), **Poultices**, **Poisons** |
+| **Armouring** (planned) | Strength | Leather armour first (jerkin, cap, gloves, leggings), then metal armour, shields and packs. Its id is `armouring`, since `armour` is wearing it |
+| **Smithing** (planned) | Strength | Weapons and tools, bows and staves among them |
+| **Enchanting** (planned, last) | Logic | Magic items and scrolls (copying scrolls, Scribing, belongs here) |
 | **Lore** | Logic | **Lore** (study a mob or item: what it is, how tough), **Bestiary**, **Rift Lore**, **Languages** |
 | **Performance** | Charisma | **Performance** (play for coin; inspire companions, as an aura) |
 | **Command** ✓ | Charisma | **Call for Help** ✓ (passive: below half health, allies within two rooms come running), **Rally**, **Orders**. Not taught yet: the town's guards have it |
@@ -229,4 +233,4 @@ Built.
 - [ ] **What stops one character learning every tree?** Still the biggest open question in [Skills](skills.md#open-questions). Trainers make it pressing: with free lessons, anyone can open every tree, though now only at its entry.
 - [x] **Do lessons cost money?** Spells do, except each tradition's starter; skills don't (2026-10-26). See [Lessons](economy.md#lessons).
 - [ ] **Shields and Archery:** in from the start, or later?
-- [ ] **Crafting:** one tree, or one per craft?
+- [x] **Crafting:** one tree, or one per craft? One per craft: Harvesting supplies Alchemy, Armouring, Smithing and Enchanting (2026-10-30, [the crafting trees](crafting.md#the-crafting-trees)). Cooking stays in Survival.

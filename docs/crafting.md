@@ -88,9 +88,25 @@ Nature's **Brewing** (Intuition), taught by Narina the herbalist, steeps herbs a
 
 Draughts are drunk (`drink`): what each does is its item's `consumable` effects, data like a meal's. Poultices, and coatings for a blade (foxglove, nightshade and venom sacs), want a way to use an item on a wound or a weapon, which comes later.
 
+## The crafting trees
+
+Decided 2026-10-30; not built yet beyond Cooking and Brewing. **One tree turns raw materials into usable ones, and four make finished things from them**, so the whole chain of materials lives in one place:
+
+| Tree | Makes | From |
+| --- | --- | --- |
+| **Harvesting** | Pelts, hides, meat and trophies (Skinning, Butchering); leather (Tanning, at a tanning rack); later ingots (Mining, Smelting at a forge), timber and staves (Woodcutting), perhaps dried herbs | Corpses, ore, trees, herbs |
+| **Alchemy** | Draughts (Brewing), poultices, poisons | Herbs, slime jelly, trophies |
+| **Armouring** | Leather armour first (jerkin, cap, gloves, leggings), then metal armour, shields, packs | Leather, ingots |
+| **Smithing** | Weapons and tools, bows and staves among them | Ingots, timber, trophies (hilts) |
+| **Enchanting** | Magic items, scrolls; last | What the others make |
+
+Cooking stays in Survival, and Herbalism (finding herbs) in Nature. Skinning and Butchering move from Survival to Harvesting, and Brewing from Nature to Alchemy. Skills are saved by name (`survival:skinning`), so moving one means renaming it on characters who already have it.
+
+Still to settle: who teaches Tanning (likely the hunter, who teaches Skinning) and Armouring (likely a new leatherworker in town).
+
 ## Open questions
 
 - [x] **Should ingredients' quality carry into what's made?** Yes: their average moves the result's (2026-10-29).
 - [ ] **Recipe scrolls and quest rewards:** the item and action that teach a recipe.
-- [ ] **Crafting trees:** one Crafting tree, or one per craft (see [Skill trees](trees.md#open-questions))? Cooking sits in Survival for now.
+- [x] **Crafting trees:** one Crafting tree, or one per craft? One per craft, fed by Harvesting (2026-10-30, [above](#the-crafting-trees)). Cooking stays in Survival.
 - [ ] **Stations you make or carry:** a campfire built with Survival, a portable kit.
